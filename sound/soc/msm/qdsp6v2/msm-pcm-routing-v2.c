@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-/* Copyright (c) 2012-2020, The Linux Foundation. All rights reserved.
- * Copyright (C) 2019 XiaoMi, Inc.
-=======
 /* Copyright (c) 2012-2021, The Linux Foundation. All rights reserved.
->>>>>>> e7b3cc826508a8e7a4a13ad2a604984c11a85215
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2 and

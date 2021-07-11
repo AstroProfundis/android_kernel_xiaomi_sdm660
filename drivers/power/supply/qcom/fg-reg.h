@@ -274,7 +274,6 @@
 /* for v2.0 and above */
 #define ESR_REQ_CTL_BIT				BIT(1)
 #define ESR_REQ_CTL_EN_BIT			BIT(0)
-<<<<<<< HEAD
 #ifdef CONFIG_MACH_LONGCHEER
 /* BATT_INFO_PEEK_MUX1 */
 #define PEEK_MUX1_BIT				BIT(0)
