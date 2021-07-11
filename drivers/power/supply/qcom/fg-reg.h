@@ -1,4 +1,4 @@
-/* Copyright (c) 2016-2017, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2016-2017, 2020, The Linux Foundation. All rights reserved.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2 and
@@ -66,7 +66,6 @@
 #define BATT_INFO_JEITA_COLD(chip)		(chip->batt_info_base + 0x63)
 #define BATT_INFO_JEITA_HOT(chip)		(chip->batt_info_base + 0x64)
 #define BATT_INFO_JEITA_TOO_HOT(chip)		(chip->batt_info_base + 0x65)
-
 /* only for v1.1 */
 #define BATT_INFO_ESR_CFG(chip)			(chip->batt_info_base + 0x69)
 /* starting from v2.0 */
@@ -275,7 +274,7 @@
 /* for v2.0 and above */
 #define ESR_REQ_CTL_BIT				BIT(1)
 #define ESR_REQ_CTL_EN_BIT			BIT(0)
-
+<<<<<<< HEAD
 #ifdef CONFIG_MACH_LONGCHEER
 /* BATT_INFO_PEEK_MUX1 */
 #define PEEK_MUX1_BIT				BIT(0)

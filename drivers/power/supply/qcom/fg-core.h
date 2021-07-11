@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 /* Copyright (c) 2016-2017, The Linux Foundation. All rights reserved.
  * Copyright (C) 2019 XiaoMi, Inc.
+=======
+/* Copyright (c) 2016-2017, 2020, The Linux Foundation. All rights reserved.
+>>>>>>> e7b3cc826508a8e7a4a13ad2a604984c11a85215
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2 and
@@ -571,5 +575,4 @@ extern int fg_circ_buf_median(struct fg_circ_buf *, int *);
 extern int fg_lerp(const struct fg_pt *, size_t, s32, s32 *);
 #ifdef CONFIG_MACH_XIAOMI_TULIP
 extern int fg_dma_mem_req(struct fg_chip *, bool);
-#endif
 #endif
