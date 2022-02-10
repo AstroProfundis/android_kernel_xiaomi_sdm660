@@ -269,13 +269,8 @@ enum power_supply_property {
 	POWER_SUPPLY_PROP_MAX_PULSE_ALLOWED,
 #ifdef CONFIG_MACH_XIAOMI_SDM660
 	POWER_SUPPLY_PROP_RERUN_APSD,
-#ifdef CONFIG_MACH_LONGCHEER
+#endif
 	POWER_SUPPLY_PROP_FG_RESET_CLOCK,
-#elif defined(CONFIG_MACH_MI)
-	POWER_SUPPLY_PROP_TYPE_RECHECK,
-	POWER_SUPPLY_PROP_CHARGER_TYPE,
-#endif
-#endif
 	/* Local extensions of type int64_t */
 	POWER_SUPPLY_PROP_CHARGE_COUNTER_EXT,
 	/* Properties of type `const char *' */
